@@ -99,6 +99,7 @@ nav a {
     justify-content: space-between;
     align-items: flex-start;
     margin: 50px 10px 10px;
+    position: relative;
 }
 
 .yeezy {
@@ -137,9 +138,12 @@ nav a {
 .spotify-icon img {
       height: 150px;
       width: 150px;
-      position:static;
+      position: absolute;
+      top: 350px;
+      left: 700px;
+      /*position:static;
       right: 100px;
-      float: right;
+      float: right;*/
 }
     
     
